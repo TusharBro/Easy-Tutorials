@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <title>University Website</title>
+</head>
+<body>
+  <section class="about-head">
+    <nav>
+      <a href="#"><img src="blog/client-1.png" alt=""></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fas fa-times" onclick="hidenMenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="#course">COURSE</a></li>
+          <li><a href="#campus">CAMPUS</a></li>
+          <li><a href="#facelities">FACELITIES</a></li>
+          <li><a href="#contract">CONTRACT</a></li>
+          <li><a href="about.html">ABOUT US</a></li>
+        </ul>
+      </div>
+      <i class="fas fa-bars" onclick="showMenu()"></i>
+    </nav>
+   <h1>About Us</h1>
+  </section>
+
+  
+  <footer>
+    <h4>About us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae repellat ducimus, et est quaerat labore, delectus molestiae rerum accusantium culpa ullam fugit? Commodi nesciunt vitae voluptas quaerat ex neque, animi quod ut maxime laboriosam. Enim assumenda reru</p>
+    <div class="icons">
+      <i class="fa fa-facebook"></i>
+      <i class="fa fa-star" aria-hidden="false"></i>
+      <i class="fa fa-star" aria-hidden="true"></i>
+      <i class="fa fa-star" aria-hidden="true"></i>
+      <i class="fa fa-star-half" aria-hidden="false"></i>
+    </div>
+    <p>Made By Tushar Mahmud</p>
+  </footer>
+
+
+
+
+
+  <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+      navLinks.style.right = "0";
+    }
+    function hidenMenu(){
+      navLinks.style.right = "-200px";
+    }
+  </script>
+</body>
+</html>
